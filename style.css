@@ -9,6 +9,10 @@ body {
     line-height: 1.5;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* nav-bar */
 .nav-bar {
     background-color: #1f2937;
@@ -67,10 +71,19 @@ body {
     margin-bottom: 10px;
 }
 
-.main-content button{
+.main-content button {
     padding: 5px 15px;
     background-color: #3882f6;
     color: #f9faf8;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+
+.main-content button:active {
+    padding: 5px 15px;
+    color: #3882f6;
+    background-color: #f9faf8;
     font-weight: bold;
     border-radius: 3px;
     border: none;
@@ -161,6 +174,15 @@ body {
     border: 2px solid #f9faf8;
 }
 
+.sign-up button:active {
+    padding: 5px 15px;
+    color: #3882f6;
+    background-color: #f9faf8;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid #f9faf8;
+}
+
 /* style for footer */
 .footer {
     background-color: #1f2937;
@@ -185,5 +207,5 @@ body {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+    }
 }
-
