@@ -81,3 +81,37 @@ body {
     height: 400px;
     background-color: grey;
 }
+
+/* this is for the random-info */
+.random-info {
+    text-align: center;
+}
+
+.random-info .container h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 30px;
+}
+
+.random-info .container .box-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box {
+    max-width: 156px;
+    flex: 1;
+}
+
+.box img {
+    border: 3px solid #3882f6 ;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+
