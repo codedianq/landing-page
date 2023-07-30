@@ -85,6 +85,7 @@ body {
 /* this is for the random-info */
 .random-info {
     text-align: center;
+    margin: 20px 0px 70px;
 }
 
 .random-info .container h2 {
@@ -114,4 +115,29 @@ body {
     height: 150px;
 }
 
+/* style for quote section */
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 350px;
+}
+
+.quote .container .message {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote .container .author {
+    text-align: end;
+    font-size: 30px;
+    align-self: flex-end;
+}
 
