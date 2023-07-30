@@ -141,3 +141,23 @@ body {
     align-self: flex-end;
 }
 
+/* style for sign-up section */
+.sign-up .container {
+    margin: 70px 100px;
+    background-color: #3882f6;
+    padding: 40px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up button {
+    padding: 5px 15px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 3px;
+    border: 2px solid #f9faf8;
+}
+
