@@ -16,6 +16,8 @@ button:hover {
 /* nav-bar */
 .nav-bar {
     background-color: #1f2937;
+    position: sticky;
+    top: 0px;
 }
 
 .nav-bar .container {
