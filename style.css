@@ -161,3 +161,29 @@ body {
     border: 2px solid #f9faf8;
 }
 
+/* style for footer */
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 150px;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .random-info .container .box-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
+
