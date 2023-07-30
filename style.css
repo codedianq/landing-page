@@ -5,6 +5,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    line-height: 1.5;
+}
+
 /* nav-bar */
 .nav-bar {
     background-color: #1f2937;
@@ -14,7 +18,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 20px 150px;
 }
 
 .nav-bar .logo {
@@ -39,3 +43,41 @@
     color: #86b6ff;
 }
 
+/* this is for the main-content */
+
+.main-content {
+    background-color: #1f2937;
+    color: #f9faf8;
+    height: 500px;
+    display: flex;
+    padding: 40px 150px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-content .container h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    margin-bottom: 10px;
+}
+
+.main-content button{
+    padding: 5px 15px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 3px;
+    border: none;
+}
+
+.main-content img {
+    width: 600px;
+    height: 400px;
+    background-color: grey;
+}
